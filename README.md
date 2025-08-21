@@ -46,6 +46,8 @@ In this project, the following technologies and platforms were used:
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white" alt="Amazon S3"/>
   <img src="https://img.shields.io/badge/Apache_Sedona-4D2C5A?style=for-the-badge&logoColor=white" alt="Apache Sedona"/>
+  <img src="https://img.shields.io/badge/Amazon_EMR_Serverless-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="EMR Serverless"/>
+  <img src="https://img.shields.io/badge/Amazon_ECR-FF9900?style=for-the-badge&logo=amazon-ecr&logoColor=white" alt="Amazon ECR"/>
 </p>
 
 ## Architecture Diagram
