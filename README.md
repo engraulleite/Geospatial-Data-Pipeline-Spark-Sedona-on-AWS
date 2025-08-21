@@ -33,7 +33,7 @@ This approach ensures that end users always query a complete and consistent data
   - High Availability (Zero Downtime): Consumer systems no longer suffer from unavailability during update cycles.
   - Maintainability and Modularity: The ETL code was decoupled from the database, making it easier to test, version, and maintain.
 
-## 🛠️ Technologies
+## Technologies
 
 In this project, the following technologies and platforms were used:
 
@@ -48,4 +48,7 @@ In this project, the following technologies and platforms were used:
   <img src="https://img.shields.io/badge/Apache_Sedona-4D2C5A?style=for-the-badge&logoColor=white" alt="Apache Sedona"/>
 </p>
 
-![Diagrama da Arquitetura](docs/images/architecture_diagram.png)
+## Architecture Diagram
+
+![Diagrama da Arquitetura](docs/images/diagram_arq.png)
+
