@@ -32,6 +32,7 @@ This approach ensures that end users always query a complete and consistent data
   - Faster and More Scalable Updates: Processing time was drastically reduced thanks to the power of Spark and EMR Serverless.
   - High Availability (Zero Downtime): Consumer systems no longer suffer from unavailability during update cycles.
   - Maintainability and Modularity: The ETL code was decoupled from the database, making it easier to test, version, and maintain.
+  - Reduction in processing time: Achieved a 90% reduction in processing time: from 2.5 hours down to 15 minutes by leveraging Apache Spark and Apache Sedona.
 
 ## Technologies
 
