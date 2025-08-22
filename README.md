@@ -1,5 +1,5 @@
-# Serverless-Geospatial-Data-Pipeline-on-AWS
-A fully serverless geospatial data pipeline built on AWS for processing and analyzing large volumes of spatial data. This solution integrates AWS managed services with open-source frameworks to create a scalable, efficient, and cost-effective data flow.
+# Geospatial-Data-Pipeline-on-AWS
+A fully geospatial data pipeline built on AWS for processing and analyzing large volumes of spatial data. This solution integrates AWS managed services with open-source frameworks to create a scalable, efficient, and cost-effective data flow.
 
 ## Project Overview
 This repository contains the code and infrastructure for a serverless geospatial data pipeline, designed to modernize and optimize an ETL process that was suffering from performance bottlenecks in a PostgreSQL database.
