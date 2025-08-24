@@ -1,15 +1,15 @@
 # Geospatial-Data-Pipeline-on-AWS
 A fully geospatial data pipeline built on AWS for processing and analyzing large volumes of spatial data. This solution integrates AWS managed services with open-source frameworks to create a scalable, efficient, and cost-effective data flow.
 
-## Project Overview
+## 📌 Project Overview
 This repository contains the code and infrastructure for a serverless geospatial data pipeline, designed to modernize and optimize an ETL process that was suffering from performance bottlenecks in a PostgreSQL database.
 
-## The Problem
+## ❓ The Problem
 The original system relied on complex Materialized Views to aggregate and transform large volumes of geospatial data. The update process (REFRESH MATERIALIZED VIEW) was:
   - Slow: Took considerable time to complete, resulting in outdated data for extended periods.
   - Resource-Intensive: Consumed excessive CPU and memory from the database, degrading the performance of other queries and applications.
 
-## The Architectural Solution
+## 💡 The Architectural Solution
 To solve these problems, the architecture was redesigned to externalize and optimize data processing, following two main strategies:
 
 1. Distributed Processing with Spark & Sedona on EMR Serverless:
@@ -27,14 +27,14 @@ To replace materialized views and avoid downtime, a "blue-green deployment" patt
 
 This approach ensures that end users always query a complete and consistent dataset, completely eliminating downtime and inconsistency windows.
 
-## Key Benefits Achieved
+## 🚀 Key Benefits Achieved
   - Reduced Database Load: PostgreSQL was relieved of heavy processing, freeing it for its primary function: serving queries quickly.
   - Faster and More Scalable Updates: Processing time was drastically reduced thanks to the power of Spark and EMR Serverless.
   - High Availability (Zero Downtime): Consumer systems no longer suffer from unavailability during update cycles.
   - Maintainability and Modularity: The ETL code was decoupled from the database, making it easier to test, version, and maintain.
   - Reduction in processing time: Achieved a 90% reduction in processing time: from 2.5 hours down to 15 minutes by leveraging Apache Spark and Apache Sedona.
 
-## Technologies
+## 🛠️ Technologies
 
 In this project, the following technologies and platforms were used:
 
